@@ -1,6 +1,6 @@
-# LPViewPager
+# LPViewPagerController
 
-LPViewPager is a tiny controller component which is base on UIPageViewController and it's easy to use.
+LPViewPagerController is a tiny controller component which is base on UIPageViewController and it's easy to use.
 
 ##Screenshot
 
@@ -8,4 +8,12 @@ LPViewPager is a tiny controller component which is base on UIPageViewController
 
 ## Usage
 
-see the sample xcodeproj
+using cocoaPods:  
+
+```Object-C
+  pod 'LPViewPagerController', '~> 1.0.0'
+```
+
+## Update
+
+-  v1.0.0 ---- first commit version
