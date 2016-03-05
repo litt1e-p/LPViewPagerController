@@ -5,14 +5,14 @@ LPViewPagerController is a tiny controller component which is base on UIPageView
 ## Usage
 
 ```swift
-// adopt LPViewPagerDataSource
+// conform LPViewPagerDataSource
 // implement method below
 - (NSUInteger)numberOfTabsForViewPager:(LPViewPagerController *)viewPager;
 // and there are 2 optional method for implement
 - (UIViewController *)viewPager:(LPViewPagerController *)viewPager contentViewControllerForTabAtIndex:(NSUInteger)index;
 - (UIView *)viewPager:(LPViewPagerController *)viewPager contentViewForTabAtIndex:(NSUInteger)index;
 
-// adopt LPViewPagerDelegate and implement these optional methods below if needed
+// conform LPViewPagerDelegate and implement these optional methods below if needed
 - (void)viewPager:(LPViewPagerController *)viewPager didChangeTabToIndex:(NSUInteger)index;
 - (CGFloat)viewPager:(LPViewPagerController *)viewPager valueForOption:(ViewPagerOption)option withDefault:(CGFloat)value;
 - (void)setSubViewScrollStatus:(BOOL)enabled;
