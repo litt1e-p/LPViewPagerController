@@ -17,8 +17,16 @@ LPViewPagerController is a tiny controller component which is base on UIPageView
 - (CGFloat)viewPager:(LPViewPagerController *)viewPager valueForOption:(ViewPagerOption)option withDefault:(CGFloat)value;
 - (void)setSubViewScrollStatus:(BOOL)enabled;
 
-// other properties
-`there are some properties for customization just follow the sample project`
+/** properties for customization */
+//1.titleNormalColor for pagingTitleView
+self.pagingTitleView.titleNormalColor = [UIColor greenColor];
+//2.titleSelectedColor for pagingTitleView
+self.pagingTitleView.titleSelectedColor = [UIColor yellowColor];
+//3.indicatorColor for pagingTitleView
+self.pagingTitleView.indicatorColor = [UIColor purpleColor];
+//4.font for pagingTitleView
+self.pagingTitleView.font = [UIFont systemFontOfSize:15.f];
+
 ```
 
 ## Install
